@@ -1,4 +1,7 @@
-import json
+"""
+Utility classes and methods that dont really need to exist in seperate files
+"""
+
 from decoder import JSONDecoder
 from encoder import JSONEncoder
 
