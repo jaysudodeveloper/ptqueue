@@ -28,5 +28,5 @@ class JsonCommandHandler(socketserver.BaseRequestHandler):
         LOGGER.info("received form client: %s", data)
 
 class PtQueueServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
-    """Threaded version of socketserver TCPServer"""
+    """Threaded version of socketserver.TCPServer"""
     pass

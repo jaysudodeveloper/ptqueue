@@ -3,7 +3,6 @@ Utility classes and methods that dont really need to exist in seperate files
 """
 
 import json
-import collections
 # pylint: disable=C0103
 _default_decoder = json.JSONDecoder(object_hook=None, object_pairs_hook=None)
 _default_encoder = json.JSONEncoder(
